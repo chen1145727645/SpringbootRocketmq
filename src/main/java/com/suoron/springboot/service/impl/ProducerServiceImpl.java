@@ -15,7 +15,7 @@ import javax.annotation.PreDestroy;
 public class ProducerServiceImpl implements ProducerService {
     @Value("${apache.rocketmq.producer.producerGroup}")
     private String producerGroup;
-
+    private  String test;
     @Value("${apache.rocketmq.namesrvAddr}")
     private String namesrvAddr;
 
